@@ -16,7 +16,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 include(cmake/SourcesAndHeaders.cmake)
 include(cmake/Settings.cmake)
-include(cmake/Tests.cmake)
+#include(cmake/Tests.cmake)
 
 add_executable(${PROJECT_NAME} ${sources})
 
